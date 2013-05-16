@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<script>
+			var printStuff = function(myDocs)
+			{
+				this.documents  = myDocs;
+			}
+			
+			printStuff.prototype.print = function(){
+				console.log(this.documents);
+			}
+			
+			var newObj = new printStuff("I am a new Object and I can print.");
+			
+			newObj.print();
+		</script>
+	</head>
+	<body>
+	
+	</body>
+</html>
