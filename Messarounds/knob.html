@@ -1,0 +1,30 @@
+<!--
+
+Idea is to use the knob plugin to some the progress of a file upload. Why? Because it's cool looking.
+Still need to: 
+- Add PHP scripts, uploader, all that jazz
+- Add jQuery
+- Actually start this project
+
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Knob Plugin File Uploader</title>
+	</head>
+	<body>
+		<input type="text" class="dial" data-min="0" data-max="100">
+	</body>
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="https://raw.github.com/aterrien/jQuery-Knob/master/js/jquery.knob.js"></script>
+	<script>
+	$(function() {
+	    $(".dial").knob({
+	      'draw' : function () { 
+	        $(this.i).val(this.cv + '%')
+	      }
+	    })
+	})
+	</script>
+</html>​
