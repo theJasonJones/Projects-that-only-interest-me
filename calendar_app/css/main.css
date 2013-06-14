@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#content-container{
+	width: 80%; 
+	margin: 0 auto;
+}
+
+#calendar{
+	background-color: #DADADA;
+	width: 70%;
+	margin: 0 auto;
+	padding: 25px;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+div{ text-align: center; }
+
+#day-header{
+	position: relative;
+	left: 21%;
+}
+
+
+div.prev{
+	width: 45px;
+	float: left;
+	border-bottom: 3px solid gold;
+}
+
+div.date-display{
+	width: 45%;
+	float: left;
+}
+
+.date-display div#dayOfTheWeek{
+	font-size: 3.5em;
+	font-weight: 800;
+}
+
+div.next{
+	width: 45px;
+	float: left;
+	border-bottom: 3px solid gold;
+}
+
+div.event-adder{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.event-button{
+	border: 0;
+	background: gold;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 100%;
+}
+
+#event-container{
+	width: 200px;
+	height: 100px;
+	background: green;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+.direction-buttons{
+	margin-top: 25px;
+}
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.clear{
+	clear: all;
+}
