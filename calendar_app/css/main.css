@@ -12,15 +12,14 @@ body{
 	background-color: #DADADA;
 	width: 70%;
 	margin: 0 auto;
-	padding: 25px;
+	padding: 5px 25px;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
 div{ text-align: center; }
 
 #day-header{
-	position: relative;
-	left: 21%;
+	width: 100%;
 }
 
 
@@ -31,7 +30,7 @@ div.prev{
 }
 
 div.date-display{
-	width: 45%;
+	width: 85%;
 	float: left;
 }
 
@@ -40,6 +39,9 @@ div.date-display{
 	font-weight: 800;
 }
 
+#dayOfTheWeek{
+	margin: 0 auto;
+}
 div.next{
 	width: 45px;
 	float: left;
@@ -63,13 +65,16 @@ div.event-adder{
 }
 
 #event-container{
-	width: 200px;
+	width: 100%;
 	height: 100px;
 	background: green;
-	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 10px;
 	color: white;
 	text-align: center;
 }
+
+
 
 .clearfix:after {
      visibility: hidden;
