@@ -53,6 +53,10 @@ div.event-adder{
 	margin: 0 auto;
 }
 
+.event-adder input{
+	font-size: 1.15em;
+}
+
 .event-button{
 	border: 0;
 	background: gold;
