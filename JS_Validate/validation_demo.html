@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>Validation Demo</title>
+		<style>
+			article{
+				width: 85%;
+				margin: 0 auto;
+			}
+
+			ul li{
+				list-style: none;
+				margin-bottom: 20px;
+			}
+
+			label{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		  <article class="services-block grid_12 ">
+            <h3 class="second">Validate This</h3>
+            <div id="msg"></div>
+            <div id="matchMaking" class="match-making">
+              <form action="javascript:;" class="person-info" id="contactDetail" name="contactDetail" method="post" >
+                <ul>
+                   <li class="randomError">
+                    <label>First Name</label>
+                    <input type="text" name="name" id="first-name">
+                  </li>
+                  <li class="direction randomError">
+                    <label>Last Name</label>
+                    <input type="text" name="email" id="last-name">
+                  </li>
+                  <li class="randomError">
+                    <label>Email Address</label>
+                    <input type="text" name="email" id="email">
+                  </li>
+                  <li class="direction randomError">
+                    <label>phone</label>
+                    <input type="text" name="phone" id="phone">
+                 </li>
+                  <li class="direction randomError">
+                    <label>Age</label>
+                    <input type="text" name="age" id="age">
+                  </li>
+                  <li class="randomError">
+                    <label>Gender</label>
+                    <input type="text" name="gender" id="gender">
+                  </li>
+                </ul>
+                <input type="button" id="clickMe" name="clickMe" value="Submit &gt;&gt;"/>
+              </form>
+            </div>
+          </article>
+    <script type="text/javascript" src="assets/js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="assets/js/validation-re.js"></script>
+	</body>
+</html>
