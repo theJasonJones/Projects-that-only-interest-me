@@ -1,0 +1,15 @@
+article{
+  width: 85%;
+  margin: 0 auto;
+}
+
+ul li{
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+label{
+  display: block;
+  list-style: none;
+  font-weight: bold;
+}
