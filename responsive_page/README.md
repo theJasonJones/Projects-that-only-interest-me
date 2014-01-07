@@ -2,7 +2,7 @@
 
 The goal of this small project is do create a responsive page that looks cool. Simple enough right? 
 
-I will start out by going through the five-part tutorial on [CreativeBloq.com](http://www.creativebloq.com/build-responsive-site-week-designing-responsively-part-1-4122851). After that is finished, I will add my own enhancements as needed. Also check out the creator of this tutorial, Paul Lloyd, [repo on this project.](https://github.com/paulrobertlloyd/roadtrip/)
+I will start out by going through the five-part tutorial on [CreativeBloq.com](http://www.creativebloq.com/build-responsive-site-week-designing-responsively-part-1-4122851). After that is finished, I will add my own enhancements as needed. Also check out the creator's of this tutorial, Paul Lloyd, [repo on this project.](https://github.com/paulrobertlloyd/roadtrip/)
 
 If all of the images still work (and that's a big if) it should resemble something like this:
 
