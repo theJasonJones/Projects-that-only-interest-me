@@ -37,7 +37,6 @@ body {
     text-rendering:optimizeLegibility;
     background:#ece6d6 url(_assets/bg-light.png) repeat;
     margin:0 auto;
-    padding: 1em 20%; /* Temporary */
 }
 
 nav ul {
@@ -48,6 +47,13 @@ h1 {
     color:#2c1c16;
     font:bold 1.75em/1.1429 'Proxima Nova Bold',sans-serif; /* 28px/32px */
     margin:0.8571em 0 0; /* 24px 0 0 */
+}
+@media screen and (min-width:35em) {
+    h1 {
+        font-size:2.5em; /* 40px */
+        line-height:1.2; /* 48px */
+        margin:0.5em 0 0; /* 20px 0 0 */
+    }
 }
 h2 {
     color:#d06f1c;
@@ -106,6 +112,10 @@ li, dd {
 dt {
     font-family:'Proxima Nova Bold',sans-serif;
     font-weight:bold;
+}
+
+figure {
+    margin-top:2em;
 }
 
 figcaption, caption {
@@ -196,6 +206,15 @@ mark, ins {
 }
 del {
     text-decoration: line-through;
+}
+
+
+/* ============================================================
+    Embedded content
+============================================================ */
+img {
+    max-width:100%;
+    display:block;
 }
 
 
