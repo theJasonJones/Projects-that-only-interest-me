@@ -1,0 +1,153 @@
+body { background: #a2deeb;}
+
+#login { z-index: 5; }
+.test-portal,iframe { display: none; }
+
+a { color: #fff; font-weight: 700; text-shadow: rgba(0,0,0,.075) 0 1px 1px !important; }
+a:hover { color: #eef8fb; }
+
+@media screen and (min-width: 680px) and (max-height: 545px) {
+  a { color: #7e9b15; text-shadow: none !important; }
+  a:hover { color: #9ebc47; }
+}
+
+@media screen and (max-width: 680px) {
+   body { -moz-background-size: 500px auto; -webkit-background-size: 500px auto; background-size: 500px auto; }
+}
+
+/* ANIMATIONS */
+
+/* DOGS */
+@-moz-keyframes runningdogs { 0%, 100% { background-position: 0 78px; }
+  20% { background-position: 0 390px; }
+  40% { background-position: 0 312px; }
+  60% { background-position: 0 234px; }
+  80% { background-position: 0 156px; } }
+
+@-webkit-keyframes runningdogs { 0%, 100% { background-position: 0 78px; }
+  20% { background-position: 0 390px; }
+  40% { background-position: 0 312px; }
+  60% { background-position: 0 234px; }
+  80% { background-position: 0 156px; } }
+
+@-ms-keyframes runningdogs { 0%, 100% { background-position: 0 78px; }
+  20% { background-position: 0 390px; }
+  40% { background-position: 0 312px; }
+  60% { background-position: 0 234px; }
+  80% { background-position: 0 156px; } }
+
+@keyframes runningdogs { 0%, 100% { background-position: 0 78px; }
+  20% { background-position: 0 390px; }
+  40% { background-position: 0 312px; }
+  60% { background-position: 0 234px; }
+  80% { background-position: 0 156px; } }
+
+/* TREES */
+@-moz-keyframes trees { 
+    0% { background-position: 2032px bottom;  }
+    100% { background-position: -2032px bottom; }
+}
+@-webkit-keyframes trees { 
+    0% { background-position: 2032px bottom;  }
+    100% { background-position: -2032px bottom; }
+}
+@-ms-keyframes trees { 
+    0% { background-position: 2032px bottom;  }
+    100% { background-position: -2032px bottom; }
+}
+@keyframes trees { 
+    0% { background-position: 2032px bottom;  }
+    100% { background-position: -2032px bottom; }
+}
+
+/* MOOSE */
+@-moz-keyframes moosepos { 
+    0% { left: 100%;  }
+    100% { left: -200%; }
+}
+@-webkit-keyframes moosepos { 
+    0% { left: 100%;  }
+    100% { left: -200%; }
+}
+@-ms-keyframes moosepos { 
+    0% { left: 100%;  }
+    100% { left: -200%; }
+}
+@keyframes moosepos { 
+    0% { left: 100%;  }
+    100% { left: -200%; }
+}
+
+@-moz-keyframes moosebg { 
+    0%, 100% { background-position: 0 -75px;  }
+    22% { background-position: 0 0; }
+}
+@-webkit-keyframes moosebg { 
+    0%, 100% { background-position: 0 -75px;  }
+    22% { background-position: 0 0; }
+}
+@-ms-keyframes moosebg { 
+    0%, 100% { background-position: 0 -75px;  }
+    22% { background-position: 0 0; }
+}
+@keyframes moosebg { 
+    0%, 100% { background-position: 0 -75px;  }
+    22% { background-position: 0 0; }
+}
+
+@media screen and (min-width: 680px) {
+  
+  #snowground { position: absolute; z-index: 2; width: 100%; padding-top: 15px;height: 165px; left: 0; bottom: 0; background: #def4f9  ; overflow: hidden;  }
+  #moose-wrapper { width: 150px; height: 75px; position: absolute; top: 2px; left: 100%; }
+  #moose { width: 150px; height: 75px; background: transparent url('../images/moose.png') no-repeat 0 -75px; } 
+
+  #dog-sled { width: 618px; height: 145px; background: transparent url('../images/sled.png') no-repeat 0 0; position: relative; margin: 0 auto; }
+  #dog-sled:before { display: block; content: ''; background: rgba(0,0,0,.04); height: 6px; position: absolute; width: 2000px; left: -1950px; bottom: 5px; }
+  #dogs-row1, #dogs-row2, #dogs-row3 { position: absolute; right: 0; bottom: 0; width: 130px; height: 78px; background: url('../images/runningdogs-sprite.png'); background-position: 0 156px; }
+  #dogs-row2 { right: 120px; bottom: 0; background-position: 0 312px; }
+  #dogs-row3 { right: 240px; bottom: 0; background-position: 0 234px; }
+
+  #trees { position: absolute; z-index: 2;bottom: 180px; left: 0; width: 100%; height: 200px; overflow: hidden; }
+  #trees > div { position: absolute; left: 0; width: 100%; height: 200px; background: transparent url('../images/trees.png') repeat-x center bottom; }
+  #trees > #trees1 { opacity: .4; -moz-background-size: 1016px; -webkit-background-size: 1016px; background-size: 1016px; } 
+    
+  #dogs-row1, #dogs-row2, #dogs-row3 { 
+  -webkit-animation: runningdogs 0.4s infinite steps(1); 
+  -moz-animation: runningdogs 0.4s infinite steps(1); 
+  -ms-animation: runningdogs 0.4s infinite steps(1); 
+  animation: runningdogs 0.4s infinite steps(1); 
+  }
+
+  #trees > #trees1 { 
+  -webkit-animation: trees 160s linear infinite;
+  -moz-animation: trees 160s linear infinite;
+  -ms-animation: trees 160s linear infinite;
+  animation: trees 160s linear infinite;
+  }
+  #trees > #trees2 { 
+  -webkit-animation: trees 90s linear infinite;
+  -moz-animation: trees 90s linear infinite;
+  -ms-animation: trees 90s linear infinite;
+  animation: trees 90s linear infinite;
+  }
+
+  #moose-wrapper { 
+  -webkit-animation: moosepos 45s linear infinite;
+  -moz-animation: moosepos 45s linear infinite;
+  -ms-animation: moosepos 45s linear infinite;
+  animation: moosepos 45s linear infinite;
+  }
+  #moose { 
+  -webkit-animation: moosebg 45s infinite steps(1);
+  -moz-animation: moosebg 45s infinite steps(1);
+  -ms-animation: moosebg 45s infinite steps(1);
+  animation: moosebg 45s infinite steps(1);
+  } 
+  #moose-wrapper, #moose {
+  -moz-animation-delay: 8s;
+  -webkit-animation-delay: 8s;
+  -ms-animation-delay: 8s;
+  animation-delay: 8s;
+  }
+
+}
