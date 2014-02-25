@@ -17,4 +17,4 @@ If all of the images still work (and that's a big if) it should resemble somethi
 * The **<meta name="viewport" content="initial-scale=1.0, width=device-width"/>** is needed to override the page from being rendered at 960px (You can thank the iPhone for this). 
 * While there are a lot of emulators out there, nothing is better than a real mobile device to test on. Any testing is better than no testing.
 * When measuring the performance of a site the three key things you’ll want to focus on are: caching, the size of the files and the number of HTTP requests being made.  Tools like [Google Page Speed](http://developers.google.com/speed/pagespeed/insights/), [ySlow](http://yslow.org/) and [WebPagetest](http://www.webpagetest.org/) can tell us how well pages are performing and suggest areas for improvement.
-* RWD is a form "progressive enhancement" and only the beginning of providing a better web experience. 
+* RWD is a form of "progressive enhancement" and only the beginning of providing a better web experience. 
